@@ -1,0 +1,14 @@
+1)server.py is our client, it can be executed like this:
+python server.py log_file_name
+In our case the command to run file would be is:
+python server.py foo.txt
+
+Open another terminal
+
+Before running please ensure that you have both socket.io and nodejs installed
+
+2)Run app.js like this in this manner nodejs app.js and then goto http://localhost:8080/
+
+3) In the browser we can see changes appearing just as tail command shows in terminal
+
+On making a change in log.txt it is reflected in the console of our browser.
